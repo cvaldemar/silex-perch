@@ -46,7 +46,7 @@ Todo
 
  * Develop the Twig integration further
  * Make sure Perch apps work
- * Figure out where the best place to Perch is
+ * Figure out how and where to put Perch to avoid having two installations
 
 Credits
 -------
