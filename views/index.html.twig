@@ -1,0 +1,7 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    {{ perch_runtime() }}
+    <h1>{{ perch_content('Title') }}</h1>
+    <p>{{ perch_content('Body') }}</p>
+{% endblock %}
