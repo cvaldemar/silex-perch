@@ -35,11 +35,11 @@ tags to initialize content from the Perch backend.
 
 Example:
 
-    {{ perchRuntime() }}
-    <h1>{{ perchContent('Title') }}</h1>
-    <p>{{ perchContent('Body') }}</p>
+    {{ perch_runtime() }}
+    <h1>{{ perch_content('Title') }}</h1>
+    <p>{{ perch_content('Body') }}</p>
 
-Note: You must call perchRuntime to initialize the Perch runtime.
+Note: You must call perch_runtime to initialize the Perch runtime.
 
 Todo
 ----
