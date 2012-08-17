@@ -18,14 +18,14 @@ Start by cloning this repository, and install the dependencies using [Composer](
     curl -s http://getcomposer.org/installer | php
     php composer.phar install
 
-Install a copy of Perch into `vendors/perch`:
+Install a copy of Perch into `vendor/perch`:
 
     unzip perch_v1.8.4.zip
-    mv perch_v1.8.4 silex_perch/vendors/perch
+    mv perch_v1.8.4 silex_perch/vendor/perch
 
-Finally, configure Perch, by creating a config/config.php. If you install the backend separately or have it
-running already just copy config.php from that installation. If you are installing a clean Perch make sure
-you create the database and database tables using the perch.sql included with Perch.
+Finally, configure Perch, by creating a `vendor/perch/config/config.php`. If you install the backend separately or have it
+running already just copy `config.php` from that installation. If you are installing a clean Perch make sure
+you create the database and database tables using the `perch.sql` included with Perch.
 
 Then what?
 ----------
