@@ -1,7 +1,15 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-    {{ perch_runtime() }}
-    <h1>{{ perch_content('Title') }}</h1>
-    <p>{{ perch_content('Body') }}</p>
+    <div id="one">
+        {{ perch_location('/index/div_one') }}
+        <h1>{{ perch_content('Title') }}</h1>
+        <p>{{ perch_content('Body') }}</p>
+    </div>
+
+    <div id="two">
+        {{ perch_location('/index/div_two') }}
+        <h1>{{ perch_content('Title') }}</h1>
+        <p>{{ perch_content('Body') }}</p>
+    </div>
 {% endblock %}
