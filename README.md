@@ -36,10 +36,11 @@ tags to initialize content from the Perch backend.
 Example:
 
     {{ perch_runtime() }}
+    {{ perch_location('/index') }}
     <h1>{{ perch_content('Title') }}</h1>
     <p>{{ perch_content('Body') }}</p>
 
-Note: You must call perch_runtime to initialize the Perch runtime.
+Note: You must call perch_runtime to initialize the Perch runtime and perch_location to specify the page location. Perch will use the location to categorize content elements in the backend.
 
 Todo
 ----
